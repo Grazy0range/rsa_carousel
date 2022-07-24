@@ -16,14 +16,17 @@ $(window).on("load", function () {
         autoplayHoverPause: true,
         animateOut: "slideOutUp",
         animateIn: "slideInUp",
+        slideBy: 1,
       },
       768: {
         items: 2,
         center: true,
+        slideBy: 1,
       },
       992: {
         items: 2,
         center: true,
+        slideBy: 1,
       },
       1250: {
         items: 3,
