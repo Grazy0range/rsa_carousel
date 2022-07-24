@@ -17,7 +17,6 @@ $(window).on("load", function () {
         animateOut: "slideOutUp",
         animateIn: "slideInUp",
         touchDrag: false,
-        slideBy: 1,
       },
       768: {
         items: 2,
