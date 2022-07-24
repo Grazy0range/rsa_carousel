@@ -11,19 +11,22 @@ $(window).on("load", function () {
         items: 4,
         center: false,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         nav: true,
         autoplayHoverPause: true,
         animateOut: "slideOutUp",
         animateIn: "slideInUp",
+        touchDrag: false,
       },
       768: {
         items: 2,
         center: true,
+        slideBy: 1,
       },
       992: {
         items: 2,
         center: true,
+        slideBy: 1,
       },
       1250: {
         items: 3,
